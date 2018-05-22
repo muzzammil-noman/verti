@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body{
+	background-image: url('../img/back.jpg');
+	font-family: open sans;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header{
+	position: relative;
+	margin: 72px 0 46px; 
+}
+.logo{
+	display: inline-block;
+}
+.icon{
+	display: none;
+}
+nav{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+nav ul li{
+	display: inline;
+	padding: 12px;
+	border-radius: 8px;
+	margin-right: 37px;
+}
+nav ul li a{
+	font-size: 16px;
+	color: #696969;
+	font-weight: bold;
+}
+nav ul li:hover{
+	background-color: black;
+}
+nav ul li.current{
+	background-color: black;
+}
+nav ul li.current a{
+	color: white;
+}
+.slider{
+	margin-bottom: 45px;
+	padding-top: 75px; 
+	padding-bottom: 85px;
+	position: relative;
+	background-color: white;
+}
+.headings{
+	margin-left: 75px; 
+}
+.headings h1{
+	color: #444444;
+	font-size: 42px;
+	font-weight: 800;
+}
+.headings p{
+	font-weight: 300;
+	margin-top: 17px;
+	font-size: 32px;
+	line-height: 43px;
+}
+.buttons{
+	position: absolute;
+	top: 0;	
+	right: 0;
+	margin-right: 72px;
+	margin-top: 50px;
+}
+.buttons ul li{
+	margin-bottom: 20px;
+}
+.buttons ul li a{
+	border-radius: 5px;
+	color: white;
+	height: 93px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	width: 385px;
+	background-color: #0090c5;
+}
+.buttons ul li a.more{
+	background-color: #f3f3f3;
+	color: #444444;
+}
+.buttons ul li a i{
+	float: right;
+}
+.one-third{
+	margin-bottom: 45px;
+	border-radius: 8px;
+	width: 30%;
+	background-color: white;
+	margin-right: 5%;
+	float: left;
+
+}
+.one-third:last-child{
+	margin-right: 0;
+}
+.one-third img{
+	border-radius: 8px;
+	width: 100%;
+	margin-bottom: 61px;
+}
+.one-third h1{
+	color: #444444;
+	font-size: 20px;
+	font-weight: 800;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+.one-third p.text{
+	margin-left: 29px;
+	font-size: 16px;
+	color: #777777;
+	margin-bottom: 45px;
+} 
+.one-third p{
+	margin-bottom: 50px;
+	color: #777777;
+	margin-left: 30px;
+	line-height: 29px;
+}
+.stuff{
+	padding-top: 79px;
+	padding-bottom: 95px;
+	background-color: white;
+}
+.aside{
+	width:40%;
+	float: left;
+}
+.article{
+	width: 50%;
+	float: left;
+}
+.aside h1{
+	font-weight: 800;
+	font-size: 22px;
+	color: #444444;
+	margin-bottom: 25px;
+}
+.aside img{
+	margin-right: 12px;
+	float: left;
+	margin-bottom: 20px;
+}
+.aside li{
+	display: inline-block;
+	margin-top: 45px;
+	padding: 15px 32px 20px;
+	background-color: #0090c5;
+	border-radius: 4px;
+	border: 1px solid #0090c5;
+}
+.aside a{
+	font-size: 17px;
+	font-weight: 800;
+	color: white;
+}
+.aside i{
+	margin-right: 10px;
+	font-size: 20px;
+}
+.article h1{
+	font-size: 32px;
+	font-weight: 800;
+	color: #444444;
+	margin-bottom:51px; 
+}
+.article p{
+	color: #777777;
+	font-size: 12px;
+	line-height: 34px;
+	margin-bottom: 44px;
+}
+.article li{
+	padding: 20px 30px;
+	display: inline-block;
+	border: 1px solid #0090c5;
+	background-color: #0090c5;
+	border-radius: 4px;
+}
+.article a{
+	font-size: 18px;
+	font-weight: 800;
+	color: white;
+}
+.article i{
+	margin-right: 10px;
+	color: #0090c5;
+	background-color: white;
+	border-radius: 50%;
+	padding: 3px;
+	font-size: 14px;
+}
+.article span{
+	text-decoration: underline;
+	color: #0090c5;
+}
+#icon{
+	display: none;
+}
+.column{
+	width: 24%;
+	margin-top: 106px;
+	float: left;
+	margin-right: 1%;
+}
+.column:last-child{
+	margin-right: 0;
+}
+.column h1{
+	font-size: 22px;
+	font-weight: 800;
+	margin-bottom: 39px;
+}
+.column ul li{
+	font-size: 15px;
+	margin-bottom: 21px;
+}
+.column ul li a{
+	font-weight:400;
+	color:  #777777;
+}
+ul.social li{
+	display: inline-block;
+	border: 1px solid #575757; 
+	padding: 12px 10px;
+	transition: all .5s ease-in-out;
+	background-color: #575757;
+	margin-right: 5px;
+	border-radius: 9px;
+}
+ul.social li a{
+	color: #e7e7e7;
+}
+ul.social li:hover{
+	background-color: green;
+}
+.column p{
+	font-size: 18px;
+	line-height: 32px;
+	color: #777777;
+}
+.foot{
+	margin-top: 113px;
+	font-size: 22px;
+	color: #777777;
+	text-align: center;
+	margin-bottom: 160px;
+}
+@media only screen and (max-width: 768px){
+	.buttons{
+		position: relative;
+		text-align: center;
+		margin: 50px auto;
+		display: block;
+	}
+	.buttons ul{
+		display: inline-block;
+	}
+	.buttons ul li{
+		margin-right: 10px;
+	}
+	.buttons ul li a{
+		width: 200px;
+		max-width: 100%;
+		font-size: 23px;
+	}
+	.foot{
+		background-color: green;
+	}
+	.headings{
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.one-third{
+		text-align: center;
+		width: 80%;
+		margin: 0 10%;
+	}
+	.one-third img{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.aside{
+		text-align: center;
+		width: 100%;
+	}
+	.aside img{
+		margin: 5px auto;
+		float: none;
+		display: block;
+	}
+	.article{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.column{
+		width: 49%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 590px){
+	.column{
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1020px){
+	.foot{
+		color: blue;
+	}
+	.headings{
+		text-align: center;
+	}
+	.buttons{
+		position: relative;
+		text-align: center;
+		margin: 50px auto;
+		display: block;
+	}
+	.buttons ul{
+		display: inline-block;
+	}
+	.buttons ul li{
+		float: left;
+		margin-right: 10px;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+	#navigation{
+		display: none;
+	}
+	a#icon{
+		display: inline-block;
+		color:white;
+		background-color:black;
+		padding: 5px 20px; 
+		font-size: 20px;
+		border-radius: 5px;
+	}
+	ul.responsive{
+		background-color: black;
+		position: relative;
+		z-index: 9999;
+		width: 200px;
+		margin: 10px 0px;
+		padding: 10px;
+		border-radius: 10px; 
+	}
+	ul.responsive li{
+		display: block;
+		padding-right: 0px;
+		margin: 15px 0;
+		text-align: center;
+	}
+	ul.responsive li a{
+		color: white;
+	}
+	nav{
+		text-align: right;
+		margin-top: 0;
+	}
+	ul.responsive li:hover a{
+		color: white;
+		background-color:#ff4488;
+		border-radius: 5px; 
+	}
+}

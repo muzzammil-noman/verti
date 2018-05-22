@@ -1,0 +1,66 @@
+<nav>
+				<a href="javascript:void(0)" id="icon" onclick="myFunction()">&#9776;</a>
+					<ul id="navigation" class="topnav">
+						<li class="active"><a href="#">Welcome</a></li>
+						<li><a href="#">Dropdown</a></li>
+						<li><a href="#">Left Sidebar</a></li>
+						<li><a href="#">Right Sidebar</a></li>
+						<li><a href="#">No Sidebar</a></li>
+					</ul>
+				</nav>
+
+ <script>
+			function myFunction(){
+				var x = document.getElementById('navigation');
+				if(x.className == "topnav"){
+					x.className += " responsive";
+					x.style.display = "block";
+				}
+				else{
+					x.className = "topnav";
+					x.style.display = "none";
+				}
+			}
+		</script>
+
+
+@media only screen and (max-width: 768px){
+	#navigation{
+		display: none;
+	}
+	a#icon{
+		display: inline-block;
+		color:white;
+		background-color:black;
+		padding: 5px 20px; 
+		font-size: 20px;
+		border-radius: 5px;
+	}
+	ul.responsive{
+		background-color: black;
+		position: relative;
+		z-index: 9999;
+		width: 200px;
+		margin: 10px 0px;
+		padding: 10px;
+		border-radius: 10px; 
+	}
+	ul.responsive li{
+		display: block;
+		padding-right: 0px;
+		margin: 15px 0;
+		text-align: center;
+	}
+	ul.responsive li a{
+		color: white;
+	}
+	nav{
+		text-align: right;
+		margin-top: 0;
+	}
+	ul.responsive li:hover a{
+		color: white;
+		background-color:#ff4488;
+		border-radius: 5px; 
+	}
+}
